@@ -51,7 +51,7 @@ nav a {
     color: #e2e8f0;
     text-decoration: none;
     padding: 0.5rem;
-    /* display: block; */
+    display: block;
     border-left: 4px solid #38bdf8;
     margin: .25rem;
 }
@@ -115,7 +115,7 @@ footer {
         grid-column: 1 / -1;
     }
 /* target the nav and display it flex, spaceed around */
-nav{
+nav ul{
     display: flex;
     justify-content: space-around;
 }
